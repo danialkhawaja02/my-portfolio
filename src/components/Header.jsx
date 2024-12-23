@@ -12,23 +12,23 @@ export default function Header() {
                     <ul className="flex gap-[8px] sm:gap-[15px] lg:gap-6">
                         <li className='flex-1'>
                             <HashLink to="/#home" smooth className='font-medium text-lg px-5 py-2.5 linkStyle hidden lg:block'>Home</HashLink>
-                            <span  className="lg:hidden"><Button icon={Home12Icon}/></span>
+                            <HashLink to="/#home" smooth className='lg:hidden'><Button icon={Home12Icon}/></HashLink>
                         </li>
                         <li className='flex-1'>
                             <HashLink to="/#about" smooth className='font-medium text-lg px-5 py-2.5 linkStyle hidden lg:block'>About</HashLink>
-                            <span  className="lg:hidden"><Button icon={UserSharingIcon}/></span>
+                            <HashLink to="/#about" smooth className="lg:hidden"><Button icon={UserSharingIcon}/></HashLink>
                         </li>
                         <li className='flex-1'>
                             <HashLink to="/#portfolio" smooth className='font-medium text-lg px-5 py-2.5 linkStyle hidden lg:block'>Portfolio</HashLink>
-                            <span  className="lg:hidden"><Button icon={SourceCodeSquareIcon}/></span>
+                            <HashLink to="/#portfolio" smooth  className="lg:hidden"><Button icon={SourceCodeSquareIcon}/></HashLink>
                         </li>
                         <li className='flex-1'>
                             <HashLink to="/#experience" smooth className='font-medium text-lg px-5 py-2.5 linkStyle hidden lg:block'>Experience</HashLink>
-                            <span  className="lg:hidden"><Button icon={CheckListIcon}/></span>
+                            <HashLink to="/#experience" smooth className="lg:hidden"><Button icon={CheckListIcon}/></HashLink>
                         </li>
                         <li className='flex-1'>
                             <HashLink to="/#contact" smooth className='font-medium text-lg px-5 py-2.5 linkStyle hidden lg:block'>Contact</HashLink>
-                            <span  className="lg:hidden"><Button icon={MessageMultiple01Icon}/></span>
+                            <HashLink to="/#contact" smooth className="lg:hidden"><Button icon={MessageMultiple01Icon}/></HashLink>
                         </li>
                     </ul>
                 </div>

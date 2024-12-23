@@ -41,7 +41,7 @@ export default function Portfolio() {
                     style={{ x: mouseX, y: mouseY }}
                     animate={{ scale: isHovered ? 1 : 0 }}
                 >
-                    <img src="../../assets/cursor.png" alt="Custom Cursor" />
+                    <img src="../../assets/cursor.png" alt="Custom Cursor" className="hidden lg:inline"/>
                 </motion.div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
                     {projects.map((list, index)=>
