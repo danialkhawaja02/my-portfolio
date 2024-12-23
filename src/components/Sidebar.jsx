@@ -9,7 +9,7 @@ export default function SideBar() {
           <div className="lg:top-[2.5rem] lg:w-12/12">
              <div className="flex flex-col gap-5 bg-[#161616] px-[2rem] py-[1.5rem] rounded-[2rem] border border-[#303033]">
                 <h2 className="text-3xl font-bold">Hello Everyone <span className="wavingHands">👋</span></h2>
-                <img src="\src\assets\danial.png"  className="rounded-[3rem] h-[320px] object-cover"/>
+                <img src="..\..\assets\danial.png"  className="rounded-[3rem] h-[320px] object-cover"/>
                 <div className='flex flex-col gap-1'>
                     <p>Specialization:</p>
                     <h2 className="text-lg font-bold">WordPress & Front-End Development</h2>

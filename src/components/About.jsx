@@ -10,14 +10,14 @@ const skillsInfo = [
 ];
 
 const skillsTool = [
-    { img: "src\\assets\\icon-wp.png", title: "WordPress" },
-    { img: "src\\assets\\icon-html.png", title: "HTML" },
-    { img: "src\\assets\\icon-css.png", title: "CSS" },
-    { img: "src\\assets\\icon-js.png", title: "JavaScript" },
-    { img: "src\\assets\\icon-typescript.png", title: "TypeScript" },
-    { img: "src\\assets\\icon-react.png", title: "React JS" },
-    { img: "src\\assets\\icon-next.png", title: "Next JS" },
-    { img: "src\\assets\\icon-tailwind.png", title: "Tailwind CSS" }
+    { img: "..\\..\\assets\\icon-wp.png", title: "WordPress" },
+    { img: "..\\..\\assets\\icon-html.png", title: "HTML" },
+    { img: "..\\..\\assets\\icon-css.png", title: "CSS" },
+    { img: "..\\..\\assets\\icon-js.png", title: "JavaScript" },
+    { img: "..\\..\\assets\\icon-typescript.png", title: "TypeScript" },
+    { img: "..\\..\\assets\\icon-react.png", title: "React JS" },
+    { img: "..\\..\\assets\\icon-next.png", title: "Next JS" },
+    { img: "..\\..\\assets\\icon-tailwind.png", title: "Tailwind CSS" }
 ];
 
 export default function About() {

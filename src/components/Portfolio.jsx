@@ -4,10 +4,10 @@ import ProjectBox from "./ProjectBox";
 import { motion, useMotionValue } from "framer-motion";
 
 const projects = [
-    { img: "src\\assets\\biznet.png", img1:"src\\assets\\biznet1.png", link:"https://biznet.com.pk",  title: "BizNet", description:"Responsible for creating the WordPress website for BizNet, a groundbreaking initiative hosted at the Presidential House in Pakistan. I utilized the latest WordPress technologies and best practices to ensure the website's performance, security, and scalability." },
-    { img: "src\\assets\\journify.png", img1: "src\\assets\\journify1.png", link:"https://journify-five.vercel.app", title: "Journify Web App", description: "A web app designed to make journaling effortless and deeply personal using React.js, focusing on user experience and secure backend services with AppWrite." },
-    { img: "src\\assets\\chatbot.png", img1: "src\\assets\\chatbot1.png", link:"https://ai-chat-bot-six-pi.vercel.app", title: "AI Chatbot", description: "Built an AI chatbot using Gemini API, LangChain, and Retrieval-Augmented Generation (RAG) to automate company query responses, reducing support workload by 30% and improving customer engagement with accurate, real-time answers." },
-    { img: "src\\assets\\fhk.png", img1: "src\\assets\\fhk1.png", link:"https://faizanhayat.com", title: "Faizan Hayat Khan's Landing Page", description: "I re-design a WordPress landing page for Faizan Hayat Khan, a skilled Erasmus Mundus Scholar, Content & Digital Marketing Specialist. The goal was to create a visually appealing design that effectively showcased Faizan's diverse expertise and generate leads from students interested in applying for the Erasmus Mundus Scholarship." },
+    { img: "..\\..\\assets\\biznet.png", img1:"..\\..\\assets\\biznet1.png", link:"https://biznet.com.pk",  title: "BizNet", description:"Responsible for creating the WordPress website for BizNet, a groundbreaking initiative hosted at the Presidential House in Pakistan. I utilized the latest WordPress technologies and best practices to ensure the website's performance, security, and scalability." },
+    { img: "..\\..\\assets\\journify.png", img1: "..\\..\\assets\\journify1.png", link:"https://journify-five.vercel.app", title: "Journify Web App", description: "A web app designed to make journaling effortless and deeply personal using React.js, focusing on user experience and secure backend services with AppWrite." },
+    { img: "..\\..\\assets\\chatbot.png", img1: "..\\..\\assets\\chatbot1.png", link:"https://ai-chat-bot-six-pi.vercel.app", title: "AI Chatbot", description: "Built an AI chatbot using Gemini API, LangChain, and Retrieval-Augmented Generation (RAG) to automate company query responses, reducing support workload by 30% and improving customer engagement with accurate, real-time answers." },
+    { img: "..\\..\\assets\\fhk.png", img1: "..\\..\\assets\\fhk1.png", link:"https://faizanhayat.com", title: "Faizan Hayat Khan's Landing Page", description: "I re-design a WordPress landing page for Faizan Hayat Khan, a skilled Erasmus Mundus Scholar, Content & Digital Marketing Specialist. The goal was to create a visually appealing design that effectively showcased Faizan's diverse expertise and generate leads from students interested in applying for the Erasmus Mundus Scholarship." },
 ]
 
 export default function Portfolio() {
@@ -41,7 +41,7 @@ export default function Portfolio() {
                     style={{ x: mouseX, y: mouseY }}
                     animate={{ scale: isHovered ? 1 : 0 }}
                 >
-                    <img src="../src/assets/cursor.png" alt="Custom Cursor" />
+                    <img src="../../assets/cursor.png" alt="Custom Cursor" />
                 </motion.div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
                     {projects.map((list, index)=>
